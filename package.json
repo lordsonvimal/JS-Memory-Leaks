@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript-jest-template",
+  "name": "js-memory-leaks",
   "version": "1.0.0",
-  "description": "Template for React/Typescript/Webpack/Babel/ESLint/Jest",
+  "description": "Memory leaks in JS",
   "main": "src/index.tsx",
   "scripts": {
     "build": "webpack --mode production",
