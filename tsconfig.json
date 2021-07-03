@@ -33,21 +33,21 @@
 
     // Strict typechecking options
     "strict": true, // Enable all strict type-checking options.
-    "noImplicitAny": true, // Raise error on expressions and declarations with an implied 'any' type.
+//    "noImplicitAny": true, // Raise error on expressions and declarations with an implied 'any' type.
     // "noImplicitThis": true, // Raise error on 'this' expressions with an implied 'any' type.
     // "strictBindCallApply": true, // Enable stricter checking of of the `bind`, `call`, and `apply` methods on functions.
     // "strictFunctionTypes": true, // Disable bivariant parameter checking for function types.
     // "strictNullChecks": true, // In strict null checking mode, the null and undefined values are not in the domain of every type and are only assignable to themselves and any.
     // "strictPropertyInitialization": true, // Ensure non-undefined class properties are initialized in the constructor. This option requires `--strictNullChecks` be enabled in order to take effect.
-    // "alwaysStrict": true, // Parse in strict mode and emit "use strict" for each source file.
+    "alwaysStrict": true, // Parse in strict mode and emit "use strict" for each source file.
 
     // Additional checks
     // "allowUnreachableCode": false, // Do not report errors on unreachable code.
     // "allowUnusedLabels": false, // Do not report errors on unused labels.
     "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
     // "noStrictGenericChecks": false, // Disable strict checking of generic signatures in function types.
-    "noUnusedLocals": true, // Report errors on unused locals.
-    "noUnusedParameters": true, // Report errors on unused parameters.
+//    "noUnusedLocals": true, // Report errors on unused locals.
+//    "noUnusedParameters": true, // Report errors on unused parameters.
     "noImplicitReturns": true, // Report error when not all code paths in function return a value.
     "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement.
     "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts).
